@@ -1,8 +1,8 @@
 
 /**
- * 📡 ORION DELTA AGGREGATOR
+ * 📡 ZAMA DELTA AGGREGATOR
  * -------------------------
- * A Cloudflare Worker that calculates update deltas for Orion Store clients.
+ * A Cloudflare Worker that calculates update deltas for Zama Store clients.
  * 
  * LOGIC:
  * 1. Client sends POST with { "installed": { "appId": "version", ... } }
@@ -23,8 +23,8 @@ const CORS_HEADERS = {
 };
 
 // CONSTANTS - Pointing to the Ghost Branch data source
-const APPS_URL = 'https://raw.githubusercontent.com/RookieEnough/Orion-Data/main/apps.json';
-const MIRROR_URL = 'https://raw.githubusercontent.com/RookieEnough/Orion-Data/data/mirror.json';
+const APPS_URL = 'https://raw.githubusercontent.com/uzamapg/Zama-Data/main/apps.json';
+const MIRROR_URL = 'https://raw.githubusercontent.com/uzamapg/Zama-Data/data/mirror.json';
 
 export default {
   async fetch(request, env, ctx) {

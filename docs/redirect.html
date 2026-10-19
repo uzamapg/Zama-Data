@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#141218">
-    <title>Open in Orion Store</title>
+    <title>Open in Zama Store</title>
     <style>
         :root {
             --md-sys-color-primary: #cfbcff;
@@ -531,17 +531,17 @@
                     <span class="brand__android-eyes"></span>
                 </span>
                 <div class="brand__text">
-                    <span class="brand__label">Orion Store</span>
+                    <span class="brand__label">Zama Store</span>
                     <span class="brand__sub">Android Redirect</span>
                 </div>
             </div>
         </header>
 
         <section class="hero">
-            <p class="eyebrow" id="state-label">Opening In Orion Store</p>
+            <p class="eyebrow" id="state-label">Opening In Zama Store</p>
             <h1 id="page-title">app</h1>
             <p class="hero__sub" id="message">
-                If Orion Store is installed, this handoff will complete automatically.
+                If Zama Store is installed, this handoff will complete automatically.
             </p>
         </section>
 
@@ -549,14 +549,14 @@
             <div class="progress" aria-hidden="true">
                 <div class="progress__bar"></div>
             </div>
-            <p class="status-text">Waiting for Orion Store…</p>
+            <p class="status-text">Waiting for Zama Store…</p>
         </section>
 
         <section class="panel fallback hidden" id="fallback" aria-live="polite">
-            <p class="fallback-title">Orion Store Is Not Available</p>
+            <p class="fallback-title">Zama Store Is Not Available</p>
             <div class="actions">
-                <a id="download-btn" class="btn btn-primary" href="https://github.com/RookieEnough/Orion-Store/releases/latest">
-                    Download Orion Store
+                <a id="download-btn" class="btn btn-primary" href="https://github.com/uzamapg/Zama-Store/releases/latest">
+                    Download Zama Store
                 </a>
                 <button id="retry-btn" class="btn btn-secondary" type="button">Try Again</button>
             </div>
@@ -564,14 +564,14 @@
 
         <footer class="footer">
             <span class="footer__label">Deep Link</span>
-            <code translate="no">orionstore://app/<span id="footer-id">-</span></code>
+            <code translate="no">zamastore://app/<span id="footer-id">-</span></code>
         </footer>
     </main>
 
     <script>
         const params = new URLSearchParams(window.location.search);
         const appId = params.get("id") || "";
-        const deepLink = "orionstore://app/" + encodeURIComponent(appId);
+        const deepLink = "zamastore://app/" + encodeURIComponent(appId);
 
         const pageTitleEl = document.getElementById("page-title");
         const footerIdEl = document.getElementById("footer-id");
@@ -589,13 +589,13 @@
 
         function setMessage(mode) {
             if (mode === "fallback") {
-                stateLabelEl.textContent = "Unable To Open In Orion Store";
-                messageEl.textContent = "Install the latest Orion Store build on this device, then try the handoff again.";
+                stateLabelEl.textContent = "Unable To Open In Zama Store";
+                messageEl.textContent = "Install the latest Zama Store build on this device, then try the handoff again.";
                 return;
             }
 
-            stateLabelEl.textContent = "Opening In Orion Store";
-            messageEl.textContent = "If Orion Store is installed, this handoff will complete automatically.";
+            stateLabelEl.textContent = "Opening In Zama Store";
+            messageEl.textContent = "If Zama Store is installed, this handoff will complete automatically.";
         }
 
         function attemptOpen() {
@@ -621,7 +621,7 @@
 
         pageTitleEl.textContent = safeDisplayName;
         footerIdEl.textContent = appId || "-";
-        document.title = appId ? safeDisplayName + " — Orion Store" : "Open in Orion Store";
+        document.title = appId ? safeDisplayName + " — Zama Store" : "Open in Zama Store";
 
         document.addEventListener("visibilitychange", function () {
             if (document.hidden) {

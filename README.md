@@ -1,8 +1,8 @@
-# Orion Data
+# Zama Data
 
-**A structured data warehouse and distribution layer for the Orion Store ecosystem.**
+**A structured data warehouse and distribution layer for the Zama Store ecosystem.**
 
-Orion Data centralizes the metadata, configuration, and package artifacts that power the Orion Store. It is designed to be consumed programmatically by client applications and automated tooling, with a clear separation between configuration, build automation, and distributable assets. Every manifest is version-controlled, schema-consistent, and intended to be read directly at runtime.
+Zama Data centralizes the metadata, configuration, and package artifacts that power the Zama Store. It is designed to be consumed programmatically by client applications and automated tooling, with a clear separation between configuration, build automation, and distributable assets. Every manifest is version-controlled, schema-consistent, and intended to be read directly at runtime.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ Orion Data centralizes the metadata, configuration, and package artifacts that p
 
 ## Overview
 
-The repository serves as the **backend data layer** for the Orion Store. It answers three questions for any client:
+The repository serves as the **backend data layer** for the Zama Store. It answers three questions for any client:
 
 - **What is available?** The application catalog defines every listing, its metadata, and version references.
 - **Where is it hosted?** Mirror configuration defines primary and fallback sources for package retrieval.
@@ -47,7 +47,7 @@ By keeping these concerns in dedicated, version-controlled files, the store clie
 ## Directory Tree
 
 ```text
-Orion-Data/
+Zama-Data/
 ├── .github/                  # GitHub Actions workflows and automation
 │   └── workflows/            # CI/CD pipeline definitions
 ├── APKs/                     # Hosted Android package artifacts
@@ -70,7 +70,7 @@ The heart of the repository is its set of JSON manifests. Each is the authoritat
 
 ### `apps.json`
 
-Defines the **application catalog** consumed by the Orion Store client. This is the authoritative source for app listings, metadata, and version references. Clients read this file to render the storefront and resolve which package to fetch.
+Defines the **application catalog** consumed by the Zama Store client. This is the authoritative source for app listings, metadata, and version references. Clients read this file to render the storefront and resolve which package to fetch.
 
 ### `mirror_config.json`
 
@@ -102,8 +102,8 @@ Together, these components ensure that data generation and distribution remain a
 To work with the repository locally, clone it and install dependencies:
 
 ```bash
-git clone https://github.com/RookieEnough/Orion-Data.git
-cd Orion-Data
+git clone https://github.com/uzamapg/Zama-Data.git
+cd Zama-Data
 npm install
 ```
 
@@ -156,4 +156,4 @@ This project is licensed under the GNU General Public License v3.0. See [LICENSE
 
 ---
 
-*Orion Data is maintained as the distribution backbone for the Orion Store. For questions or feature requests, please open an issue.*
+*Zama Data is maintained as the distribution backbone for the Zama Store. For questions or feature requests, please open an issue.*

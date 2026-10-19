@@ -96,8 +96,8 @@ jobs:
 
       - name: Commit & Push Changes
         run: |
-          git config --global user.name "Orion Bot"
-          git config --global user.email "bot@orion.store"
+          git config --global user.name "Zama Bot"
+          git config --global user.email "bot@zama.store"
           
           if [ -f added_apps.txt ] && [ -s added_apps.txt ]; then
             git add apps.json
@@ -137,13 +137,13 @@ jobs:
             const issueLinks = processedIssues.map(i => `[#${i.number}](${i.url})`).join(', ');
             
             const payload = {
-              username: "Orion Store Bot",
-              avatar_url: "https://raw.githubusercontent.com/RookieEnough/Orion-Data/main/assets/orion_logo_512.png",
+              username: "Zama Store Bot",
+              avatar_url: "https://raw.githubusercontent.com/uzamapg/Zama-Store/main/assets/orion_logo_512.png",
               embeds: [{
                   title: `✅ Batch Apps Successfully Added`,
                   description: `Processed issues: ${issueLinks}\n\nThe following apps are now live in the store:\n**${addedApps}**`,
                   color: 5763719,
-                  footer: { text: "Orion Store Automation" },
+                  footer: { text: "Zama Store Automation" },
                   timestamp: new Date().toISOString()
               }]
             };

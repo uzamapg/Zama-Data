@@ -1,48 +1,48 @@
 {
-  "appsJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/apps.json",
-  "mirrorJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/data/mirror.json",
+  "appsJsonUrl": "https://raw.githubusercontent.com/uzamapg/Zama-Data/refs/heads/main/apps.json",
+  "mirrorJsonUrl": "https://raw.githubusercontent.com/uzamapg/Zama-Data/data/mirror.json",
   "maintenanceMode": false,
-  "maintenanceMessage": "Servers are currently under maintenance. Please check back in a little while.\n\nFrom Orion updates and Morphe builds to submission approvals and customer support. I handle it all on my own. If you really enjoy my work, please consider making a donation. It will truly help Orion improve!",
+  "maintenanceMessage": "Servers are currently under maintenance. Please check back in a little while.\n\nFrom Zama updates and Morphe builds to submission approvals and customer support. I handle it all on my own. If you really enjoy my work, please consider making a donation. It will truly help Zama improve!",
   "announcement": "Recently, Spotify gave DMCA Takedown notice to Revanced Team regarding a certain patch which is Unlock Premium, so don't expect any working mod for Spotify.",
   "notice": {
     "id": "notice212",
-    "title": "Orion is now fully native",
-    "message": "Orion has moved from a web app to a complete native app. But my love and support for Morphe hasn't changed one bit. A huge thank you to every developer out there creating and maintaining patches regularly. I won't name names because that wouldn't be fair, this community is filled with brilliant minds and every single one of you matters. Here's to the open community that makes all of this possible. - RookieZ",
+    "title": "Zama is now fully native",
+    "message": "Zama has moved from a web app to a complete native app. But my love and support for Morphe hasn't changed one bit. A huge thank you to every developer out there creating and maintaining patches regularly. I won't name names because that wouldn't be fair, this community is filled with brilliant minds and every single one of you matters. Here's to the open community that makes all of this possible. - Zama",
     "show": true
   },
   "latestStoreVersion": "2.1.5",
-  "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/2.1.5/app-release.apk",
-  "supportEmail": "orionstoredev@gmail.com",
+  "storeDownloadUrl": "https://github.com/uzamapg/Zama-Store/releases/download/2.1.5/app-release.apk",
+  "supportEmail": "",
   "easterEggUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   "socials": {
-    "github": "https://github.com/RookieEnough",
-    "x": "https://x.com/_Rookie_Z",
-    "discord": "https://discord.com/invite/CrM6y4ujnq",
-    "coffee": "https://ko-fi.com/rookie_z"
+    "github": "https://github.com/uzamapg",
+    "x": "",
+    "discord": "",
+    "coffee": ""
   },
   "donation": {
-    "kofiUrl": "https://ko-fi.com/rookie_z",
-    "upiId": "rookiez@ptyes",
-    "paypalUrl": "paypal.me/RookieEnough"
+    "kofiUrl": null,
+    "upiId": null,
+    "paypalUrl": null
   },
   "devProfile": {
-    "name": "RookieZ",
-    "bio": "Orion is the future, one commit at a time. No ads, no tracking, just code.",
-    "image": "https://i.pinimg.com/originals/12/79/48/127948a3253396796874286570740594.jpg"
+    "name": "Zama",
+    "bio": "Zama is the future, one commit at a time. No ads, no tracking, just code.",
+    "image": null
   },
   "faqs": [
     {
-      "question": "Why do scanner apps say Orion has trackers?",
-      "answer": "Scanner apps like AppManager flag the Unity Ads SDK inside Orion. That SDK exists for exactly one feature: the optional ad-watching in the About tab (Fuel the Code), where watching ads supports me and earns you XP and unlocks badges. No analytics, no data mining, no data selling. The app is open source so anyone can verify it, and ads are 100% optional with nothing running in the background.",
+      "question": "Why do scanner apps say Zama has trackers?",
+      "answer": "Scanner apps like AppManager flag the Unity Ads SDK inside Zama. That SDK exists for exactly one feature: the optional ad-watching in the About tab (Fuel the Code), where watching ads earns you XP and unlocks badges. No analytics, no data mining, no data selling. The app is open source so anyone can verify it, and ads are 100% optional with nothing running in the background.",
       "icon": "fa-magnifying-glass"
     },
     {
-      "question": "Is Orion Store safe?",
-      "answer": "Absolutely. Orion Store is completely open-source. This means our code is public on GitHub for anyone to audit. We believe in transparency—no hidden trackers, no data mining, just a clean gateway to apps.",
+      "question": "Is Zama Store safe?",
+      "answer": "Absolutely. Zama Store is completely open-source. This means our code is public on GitHub for anyone to audit. We believe in transparency—no hidden trackers, no data mining, just a clean gateway to apps.",
       "icon": "fa-shield-cat"
     },
     {
-      "question": "Are apps on Orion safe?",
+      "question": "Are apps on Zama safe?",
       "answer": "Yes. I personally review and mod them using tools available on their official repositories to ensure they are safe, functional, and privacy-respecting before they land here.",
       "icon": "fa-check-double"
     },
@@ -53,12 +53,12 @@
     },
     {
       "question": "Installation failed?",
-      "answer": "If you see 'App not installed' or 'Package conflicts', it's likely a signature mismatch. You cannot install a modded app over the original Play Store version or a different mod. Uninstall the existing app first, then install the one from Orion.",
+      "answer": "If you see 'App not installed' or 'Package conflicts', it's likely a signature mismatch. You cannot install a modded app over the original Play Store version or a different mod. Uninstall the existing app first, then install the one from Zama.",
       "icon": "fa-file-signature"
     },
     {
       "question": "Download not working?",
-      "answer": "Don't panic! Just head to the app's detail page and click the 'Report' icon (⚠️) in the top right corner. It will pre-fill an email so I can fix it ASAP.",
+      "answer": "Don't panic! Just head to the app's detail page and click the 'Report' icon (⚠️) in the top right corner. It opens a pre-filled report (a GitHub issue, or an email when a support address is configured) so I can fix it ASAP.",
       "icon": "fa-bug"
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "question": "How can I support?",
-      "answer": "By donation through ko-fi. Code fuels the store, but coffee fuels the dev! You can find the link in the socials section.",
+      "answer": "Star the project on GitHub, report broken or outdated apps when you spot them, and share it with people who'd find it useful. That is what keeps the catalog alive.",
       "icon": "fa-heart"
     },
     {

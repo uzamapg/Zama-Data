@@ -1,8 +1,8 @@
 
 {
-  "name": "orion-store-scraper",
+  "name": "zama-store-scraper",
   "version": "1.0.0",
-  "description": "Automated APK Mirroring for OrionStore",
+  "description": "Automated APK Mirroring for ZamaStore",
   "main": "index.js",
   "scripts": {
     "mirror": "node .github/scripts/apk_hunter.js"

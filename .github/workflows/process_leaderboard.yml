@@ -94,8 +94,8 @@ jobs:
 
       - name: Commit & Push
         run: |
-          git config --global user.name "Orion Bot"
-          git config --global user.email "bot@orion.store"
+          git config --global user.name "Zama Bot"
+          git config --global user.email "bot@zama.store"
           git add leaderboard.json
           git commit -m "Update Leaderboard [skip ci]" || echo "No changes"
           git push

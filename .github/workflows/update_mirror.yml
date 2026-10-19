@@ -42,8 +42,8 @@ jobs:
 
       - name: Deploy to Ghost Branch (Data)
         run: |
-          git config --global user.name "Orion Bot"
-          git config --global user.email "bot@orion.store"
+          git config --global user.name "Zama Bot"
+          git config --global user.email "bot@zama.store"
           
           echo "📦 Stashing new mirror data..."
           # 1. Stash generated data OUTSIDE the git workspace

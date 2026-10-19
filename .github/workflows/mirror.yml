@@ -94,4 +94,4 @@ jobs:
           FINAL_NAME="${{ inputs.app_name }}-$VERSION.apk"
           mv "$TEMP_APK" "$FINAL_NAME"
           
-          gh release create "$TAG" "$FINAL_NAME" --title "${{ inputs.app_name }} $VERSION" --notes "Manual Mirror via OrionStore" --latest || echo "Release likely exists"
+          gh release create "$TAG" "$FINAL_NAME" --title "${{ inputs.app_name }} $VERSION" --notes "Manual Mirror via ZamaStore" --latest || echo "Release likely exists"

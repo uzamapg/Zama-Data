@@ -57,8 +57,8 @@ jobs:
 
             // Construct Discord Embed
             const payload = {
-              username: "Orion Store Bot",
-              avatar_url: "https://raw.githubusercontent.com/RookieEnough/Orion-Data/main/assets/orion_logo_512.png",
+              username: "Zama Store Bot",
+              avatar_url: "https://raw.githubusercontent.com/uzamapg/Zama-Store/main/assets/orion_logo_512.png",
               embeds: [
                 {
                   title: `📱 New App Request: ${appData.name}`,
@@ -81,7 +81,7 @@ jobs:
                     }
                   ],
                   footer: {
-                    text: "Orion Store • Apply 'approved' label to merge",
+                    text: "Zama Store • Apply 'approved' label to merge",
                     icon_url: process.env.USER_AVATAR
                   },
                   timestamp: new Date().toISOString()
